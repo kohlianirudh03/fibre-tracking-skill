@@ -1,0 +1,104 @@
+cff-version: 1.2.0
+message: "If you use this skill, please cite it as below."
+title: "fibre-tracking: per-fibre tracking and orientation measurement in X-ray CT of composites"
+abstract: >-
+  A Claude skill for tracking and measuring individual fibres in X-ray computed
+  tomography or microscopy volumes of fibre-reinforced composites: per-fibre
+  orientation, diameter, volume fraction, orientation tensor, and tracking across
+  scans or resolutions. Includes a Laplacian-of-Gaussian cross-section detector, a
+  ground-truth phantom generator and scoring tools for deciding whether a given
+  scan can resolve fibres at all.
+type: software
+authors:
+  - family-names: Kohli
+    given-names: Anirudh
+    email: kohli20196@gmail.com
+version: "1.0.0"
+date-released: "2026-10-15"
+license: MIT
+repository-code: "https://github.com/kohlianirudh03/fibre-tracking-skill"
+keywords:
+  - X-ray computed tomography
+  - fibre tracking
+  - fibre orientation
+  - orientation tensor
+  - fibre volume fraction
+  - method validation
+references:
+  - type: article
+    authors:
+      - family-names: Emerson
+        given-names: Monica Jane
+      - family-names: Jespersen
+        given-names: Kristine Munk
+      - family-names: Dahl
+        given-names: Anders Bjorholm
+      - family-names: Conradsen
+        given-names: Knut
+      - family-names: Mikkelsen
+        given-names: Lars Pilgaard
+    title: "Individual fibre segmentation from 3D X-ray computed tomography for characterising the fibre orientation in unidirectional composite materials"
+    journal: "Composites Part A: Applied Science and Manufacturing"
+    year: 2017
+    volume: 97
+    start: 83
+    end: 92
+    doi: "10.1016/j.compositesa.2016.12.028"
+  - type: article
+    authors:
+      - family-names: Jeppesen
+        given-names: Niels
+      - family-names: Mikkelsen
+        given-names: Lars Pilgaard
+      - family-names: Dahl
+        given-names: Anders Bjorholm
+      - family-names: Christensen
+        given-names: Anders Nymark
+      - family-names: Dahl
+        given-names: Vedrana Andersen
+    title: "Quantifying effects of manufacturing methods on fiber orientation in unidirectional composites using structure tensor analysis"
+    journal: "Composites Part A: Applied Science and Manufacturing"
+    year: 2021
+    volume: 149
+    number: 106541
+    doi: "10.1016/j.compositesa.2021.106541"
+  - type: article
+    authors:
+      - family-names: Advani
+        given-names: Suresh G.
+      - family-names: Tucker III
+        given-names: Charles L.
+    title: "The use of tensors to describe and predict fiber orientation in short fiber composites"
+    journal: "Journal of Rheology"
+    year: 1987
+    volume: 31
+    issue: 8
+    start: 751
+    end: 784
+    doi: "10.1122/1.549945"
+  - type: article
+    authors:
+      - family-names: Yuksel
+        given-names: Onur
+      - family-names: Broggi
+        given-names: Guillaume
+      - family-names: Hartley
+        given-names: Robin
+      - family-names: Caglar
+        given-names: Baris
+    title: "Benchmarking and sensitivity analysis of segmentation methods for image-based fiber detection in composites"
+    journal: "Composites Part A: Applied Science and Manufacturing"
+    year: 2026
+    volume: 211
+    number: 110150
+    doi: "10.1016/j.compositesa.2026.110150"
+  - type: article
+    authors:
+      - family-names: Lindeberg
+        given-names: Tony
+    title: "Feature detection with automatic scale selection"
+    journal: "International Journal of Computer Vision"
+    year: 1998
+    volume: 30
+    start: 79
+    end: 116

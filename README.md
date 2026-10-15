@@ -32,3 +32,23 @@ quoted without that step is not a measurement.
 
 Research code. Paths in the documentation are local to the machine it was
 developed on. No warranty of any kind.
+
+## How to cite
+
+If this skill contributes to published work, please cite it. Machine-readable
+metadata is in [`CITATION.cff`](CITATION.cff); GitHub renders a "Cite this
+repository" button from it.
+
+```
+Kohli A. fibre-tracking: per-fibre tracking and orientation measurement in X-ray CT of composites. Version 1.0.0, 2026. https://github.com/kohlianirudh03/fibre-tracking-skill
+```
+
+## Method references
+
+The methods implemented here build on:
+
+- Emerson MJ, Jespersen KM, Dahl AB, Conradsen K, Mikkelsen LP. Individual fibre segmentation from 3D X-ray computed tomography for characterising the fibre orientation in unidirectional composite materials. *Composites Part A* 2017;97:83-92. [doi:10.1016/j.compositesa.2016.12.028](https://doi.org/10.1016/j.compositesa.2016.12.028)
+- Jeppesen N, Mikkelsen LP, Dahl AB, Christensen AN, Dahl VA. Quantifying effects of manufacturing methods on fiber orientation in unidirectional composites using structure tensor analysis. *Composites Part A* 2021;149:106541. [doi:10.1016/j.compositesa.2021.106541](https://doi.org/10.1016/j.compositesa.2021.106541)
+- Advani SG, Tucker III CL. The use of tensors to describe and predict fiber orientation in short fiber composites. *Journal of Rheology* 1987;31(8):751-784. [doi:10.1122/1.549945](https://doi.org/10.1122/1.549945)
+- Yuksel O, Broggi G, Hartley R, et al. Benchmarking and sensitivity analysis of segmentation methods for image-based fiber detection in composites. *Composites Part A* 2026;211:110150. [doi:10.1016/j.compositesa.2026.110150](https://doi.org/10.1016/j.compositesa.2026.110150)
+- Lindeberg T. Feature detection with automatic scale selection. *International Journal of Computer Vision* 1998;30:79-116.
